@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Noticia+Text:400,700' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Michael Waskom, PhD | Research</title>
+
+    <link rel="stylesheet" href="./static/css/style.css?20200907H2543" type="text/css" />
+  </head>
+
+  <body>
+
+    <div class=container>
+
+      <span class=name><a href="./index.html">Michael Waskom, PhD</a></span>
+      <div class=navigation>
+        <ul>
+          <li><a href="./resources.html">Resources</a> </li>
+          <li><a href="./software/index.html">Software</a> </li>
+          <li><a href="./publications.html">Publications</a> </li>
+          <li><a href="./research.html">Research</a> </li>
+        </ul>
+      </div>
+
+      <div class=separator></div>
+
+      <div class=body>
+        <div class=page>
+
+          
+
+<div style="margin-left: 20px">
+
+  <p>
+    My research seeks to understand the cognitive systems that let us behave adaptively in complex, dynamic, and uncertain environments. For example, how do we reason about the world using unreliable information from our senses? When must we engage a more controlled mode of cognitive processing to accomplish our goals? What can we learn about the architecture of cognition from the organization of the cerebral cortex? To answer these questions, I perform psychophysical experiments, build computational models, and analyze neural activity. The following examples highlight some recent insights and ongoing efforts.
+  </p>
+
+  <h2>Computational properties of deliberative reasoning</h2>
+
+  <img src="./static/images/research_integration.svg" style="float: left; padding-right: 20px" />
+
+  <p>
+  When multiple pieces of information bear on a decision, the best approach is to combine the evidence provided by each one. Statistical decision theory offers both a normative rationale for taking this approach and formal methods for carrying it out. To what extent is the process of deliberation like performing statistical inference? Psychophysical and physiological experiments suggest that our brains approximate statistical methods when making simple perceptual decisions. Are the constraints imposed by neural hardware &mdash; from the biophysics of individual neurons to correlated noise in large-scale systems &mdash; responsible for suboptimal behavior? My work has shown that humans can integrate information over relatively long durations without loss of information to time-dependent factors like memory leak or noise. This supports the generalization of evidence integration models beyond simple perceptual decisions while raising new questions about how these computations are implemented in the human brain. </p>
+
+  <h3>Representative work</h3>
+    <ul>
+      <li><strong>Waskom ML</strong> &amp; Kiani R (2018). <a href=https://www.cell.com/current-biology/fulltext/S0960-9822(18)31350-2>Decision making through integration of sensory evidence at prolonged timescales</a>. <i>Current Biology</i> 28(23): 2350&ndash;3856. <a href=./papers/waskom_currbiol_2018.pdf>PDF</a> | <a href=https://github.com/KianiLab/Waskom_CurrBiol_2018>Code &amp; Data</a>
+      <li><strong>Waskom ML</strong>, Sidani L, &amp; Kiani R (2019). <a href="https://www.abstractsonline.com/pp8/#!/7883/presentation/46503">Distributed neural signatures of evidence integration during prolonged deliberation</a>. Poster presentation: Society for Neuroscience annual meeting.</li>
+    </ul>
+
+  <h2>Adaptive mechanisms of cognitive control</h2>
+
+  <img src="./static/images/research_cpe.svg" style="float: right; padding-left: 10px" />
+
+  <p>
+  We often need to flexibly alter our behavior in different contexts, such as when we move between professional and social settings. This flexibility is typically attributed to cognitive systems that exert top-down control over processing in the rest of the brain. The idea is that control systems represent different contexts in terms of the rules that they impose on our behavior. What are the computational properties of these representations? A key finding is that they are highly adaptive. My work has shown that they are most strongly engaged immediately following a change in one's environment and that their influence gradually decays as circumstances persist. Quantitatively, control is regulated by expectations about what demands one is likely to face. Its engagement reflects a measure of surprise or prediction error in a model that aims to learn environmental statistics. Further characterizing the relationship between learning and control will be key to understanding how humans successfully navigate a complex and dynamic world.
+  </p>
+
+  <h3>Representative work</h3>
+    <ul>
+      <li><strong>Waskom ML*</strong>, Kumaran D*, Gordon AM, Rissman J, &amp; Wagner AD (2014). <a href=http://www.jneurosci.org/content/34/32/10743.full>Frontoparietal representations of task context support the flexible control of goal-directed cognition.</a> <i>Journal of Neuroscience</i> 34(32): 10743&ndash;10755. <a href=./papers/waskom_jneurosci_2014.pdf>PDF</a> | <a href=https://github.com/WagnerLabPapers/Waskom_JNeurosci_2014>Code</a> | <a href=http://purl.stanford.edu/yc219qk6843>Data</a></li>
+      <li><strong>Waskom ML</strong>, Frank MC, &amp; Wagner AD (2017). <a href=https://academic.oup.com//cercor/article/doi/10.1093/cercor/bhv333/3056315/Adaptive-Engagement-of-Cognitive-Control-in?guestAccessKey=38264bd0-9679-4397-a87b-8709fb113bdb>Adaptive engagement of cognitive control in context-dependent decision-making.</a> <i>Cerebral Cortex</i> 27(2): 1270&ndash;1284. <a href=./papers/waskom_cereb_cortex_2017.pdf>PDF</a> | <a href=https://github.com/WagnerLabPapers/Waskom_CerebCortex_2017>Code &amp; Data</a> </li>
+    </ul>
+
+  <h2>Intrinsic structure of cognitive systems</h2>
+
+  <img src="./static/images/research_subnet.svg" style="float: left; padding-right: 10px" />
+
+  <p>
+  How flexible are the neural systems that enable cognitive flexibility? In one view, the association cortex is an equipotential resource that can be arbitrarily recruited to perform diverse tasks. Alternatively, it may be intrinsically structured in ways that constrain or aid cognition. I study the intrinsic organization of cognitive systems by relating task-evoked signals to temporal correlations in spontaneous activity across multiple spatial scales. At a coarse scale, cognitive control is mediated by whole-brain networks that exhibit coherent activity in the absence of a task. Within individual components of these networks, cognitive representations &mdash; even for abstract information like task rules &mdash; are themselves distributed across a fine-scaled structure. This suggests that theories about cognitive encoding and decoding should account for the presence of intrinsic constraints in the underlying neural systems. This structure may be beneficial, perhaps by contributing to the compositionality of cognitive representations. But it may also impose limits on cognitive capacity.
+  </p>
+
+  <h3>Representative work</h3>
+    <ul>
+      <li><strong>Waskom ML</strong> &amp; Wagner AD (2017). <a href=http://www.pnas.org/cgi/doi/10.1073/pnas.1615269114>Distributed representation of context by intrinsic subnetworks in prefrontal cortex</a>. <i>Proceedings of the National Academy of the Sciences, USA</i> 114(8): 2030&ndash;2035. <a href=./papers/waskom_pnas_2017.pdf>PDF</a> | <a href=https://github.com/WagnerLabPapers/Waskom_PNAS_2017>Code</a> | <a href=https://purl.stanford.edu/vq183gc7199>Data</a> | <a href=http://science.sciencemag.org/content/355/6330/1170.7>Highlight</a></li>
+      <li><strong>Waskom ML</strong>, Purcell BA, &amp; Kiani R (2018). <a href="https://www.abstractsonline.com/pp8/#!/4649/presentation/15031">Structured correlations of neuronal activity within and between regions of primate frontoparietal cortex</a>. Poster presentation: Society for Neuroscience annual meeting.</li>
+    </ul>
+
+</div>
+
+
+
+        </div>
+      </div>
+
+      <div class=footer>
+        <p>&copy; Copyright <script language="JavaScript">var date = new Date(); document.write(date.getFullYear());</script> by Michael Waskom</p>
+        <div class=social style="font-size: 27px;">
+          <ul>
+            <script language="JavaScript">
+              front = 'mwaskom';
+              school = 'nyu';
+              tld = 'edu';
+              document.write('<a href=\"mailto:' + front + '@' + school + '.' + tld + '\" target=\"_blank\">');
+            </script>
+            <li><i class="fa fa-envelope"></i> </li>
+            </a>
+            <a href="https://twitter.com/michaelwaskom" target="_blank"> <li> <i class="fa fa-twitter"></i> </li> </a>
+            <a href="https://github.com/mwaskom" target="_blank"> <li> <i class="fa fa-github"></i> </li> </a>
+            <a href="https://scholar.google.com/citations?user=EIPxNwUAAAAJ&hl=en" target="_blank"> <li> <i class="ai ai-google-scholar"></i> </li> </a>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+</html>
