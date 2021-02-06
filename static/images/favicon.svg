@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with matplotlib (https://matplotlib.org/) -->
+<svg height="144pt" version="1.1" viewBox="0 0 144 144" width="144pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata>
+  <rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2021-02-06T17:50:37.746371</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.3.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linecap:butt;stroke-linejoin:round;}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 144 
+L 144 144 
+L 144 0 
+L 0 0 
+z
+" style="fill:none;"/>
+  </g>
+  <g id="axes_1">
+   <g id="text_1">
+    <!-- M -->
+    <g style="fill:#777799;" transform="translate(27.5 75.603125)scale(1 -1)">
+     <defs>
+      <path d="M 44.5 13.203125 
+L 68.40625 70.796875 
+L 79.40625 70.796875 
+L 79.40625 0 
+L 72.203125 0 
+L 72.203125 61.203125 
+L 72 61.203125 
+L 46.40625 0 
+L 42.59375 0 
+L 17 61.203125 
+L 16.796875 61.203125 
+L 16.796875 0 
+L 9.59375 0 
+L 9.59375 70.796875 
+L 20.59375 70.796875 
+z
+" id="Avenir-Book-77"/>
+     </defs>
+     <use xlink:href="#Avenir-Book-77"/>
+    </g>
+   </g>
+   <g id="text_2">
+    <!-- W -->
+    <g style="fill:#777799;" transform="translate(24.796875 136.79375)scale(1 -1)">
+     <defs>
+      <path d="M 25 10.203125 
+L 25.203125 10.203125 
+L 43 70.796875 
+L 51.59375 70.796875 
+L 69.40625 10.203125 
+L 69.59375 10.203125 
+L 86.40625 70.796875 
+L 94.40625 70.796875 
+L 73.5 0 
+L 65.09375 0 
+L 47.296875 60.59375 
+L 47.09375 60.59375 
+L 29.296875 0 
+L 20.90625 0 
+L 0 70.796875 
+L 8 70.796875 
+z
+" id="Avenir-Book-87"/>
+     </defs>
+     <use xlink:href="#Avenir-Book-87"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
